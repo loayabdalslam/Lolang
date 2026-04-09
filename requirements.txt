@@ -1,4 +1,25 @@
-openai>=1.0.0
+# LOLANG AI Agent System - Dependencies
+# Core AI/ML
 google-generativeai>=0.3.0
-python-dotenv>=1.0.0
+openai>=1.0.0
+
+# WebSocket support
 websockets>=11.0.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Development tools
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.0.0
+black>=22.0.0
+flake8>=5.0.0
+mypy>=0.991
+pylint>=2.15.0
+
+# Type checking
+typing-extensions>=4.0.0
+
+# Benchmarking
+statistics>=1.0.0
